@@ -6,6 +6,19 @@
 
 @theme {
   /* Her tilføjes theme variable // tokens */
+
+ /* Costum theme fonts */
+ --font-display: "Rock Salt";
+ --font-sans: "Figtree";
+ --font-serif: "DM Serif Display";
+ 
+ /*Infinite scroll animation*/
+ --animate-infinite-scroll: infinite-scroll 15s linear infinite;  
+
+ @keyframes infinite-scroll {    
+ from { transform: translateX(0);}    
+ to { transform: translateX(-100%);}  
+ }
 }
 
 @layer base {
